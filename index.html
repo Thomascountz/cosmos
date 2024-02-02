@@ -1,0 +1,23 @@
+<body>
+  <div id="app">
+    <div>
+      <label for="firmware-url">Firmware URL:</label>
+      <input type="text" id="firmware-url">
+    </div>
+    <div>
+      <label for="board">Board:</label>
+      <select id="board">
+        <option value="uno">Arduino Uno</option>
+        <option value="nano">Arduino Nano</option>
+        <option value="mega">Arduino Mega</option>
+        <!-- Add other boards as needed -->
+      </select>
+    </div>
+    <div>
+      <label for="usb-port">USB Port:</label>
+      <select id="usb-port"></select>
+    </div>
+    <button id="flash-button">Flash Firmware</button>
+  </div>
+  <script src="index.js"></script>
+</body>
